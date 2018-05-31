@@ -36,3 +36,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Swagger Docs
+
+Go to /api route
+

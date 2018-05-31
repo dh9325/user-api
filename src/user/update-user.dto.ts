@@ -1,6 +1,8 @@
+import {ApiModelProperty} from '@nestjs/swagger';
+
 export class UpdateUserDto {
-  readonly forename?: string;
-  readonly surname?: string;
-  readonly email?: string;
+  @ApiModelProperty() readonly forename?: string;
+  @ApiModelProperty() readonly surname?: string;
+  @ApiModelProperty() readonly email?: string;
   readonly created = new Date();
 }
